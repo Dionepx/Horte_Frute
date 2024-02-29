@@ -1,9 +1,3 @@
-
-
-// QUANDO USAR {OBJETO} E [ARRAY] ?
-
-
-
 const data = {
      "nome": 'Horte Frute',
      "saldo": 0,
@@ -105,7 +99,3 @@ const venda1 = venda(data.produtos.legumes, "Cenoura", 5);
 const compra1 = compra(data.produtos.frutas, "Banana", 5);
 
 //Saida final
-// console.log(venda1)
-// console.log(compra1)
-
-// console.log(data.produtos.frutas)
