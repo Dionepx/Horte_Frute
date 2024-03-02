@@ -1,0 +1,79 @@
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+img {
+     width: 150px;
+}
+
+.container-venda {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 10px;
+}
+
+.container-fruta {
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+}
+
+.frutas {
+     text-align: center;
+}
+
+.bar {
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid;
+}
+
+.search {
+     float: right;
+     padding: 10px;
+     width: 250px;
+     margin-top: 5px;
+     margin-right: 5px;
+}
+
+.btn {
+     float: right;
+     padding: 10px;
+     margin-top: 5px;
+     margin-right: 20px;
+}
+
+.title {
+     font-size: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     text-align: center;
+}
+
+span {
+     cursor: pointer;
+     margin-right: 15px;
+     margin-left: 25px;
+     margin-bottom: 30px;
+     font-weight: bold;
+     font-size: 23px;
+}
+
+.menu {
+     margin-top: 15px;
+}
+
+.typeEl {
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     text-align: center;
+     font-size: 80px;
+}
